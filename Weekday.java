@@ -42,7 +42,7 @@ class Weekday{
         } 
         else {
 
-            System.out.println("Please enter weekday number between 1-7.");
+            System.out.println("Please enter valid number.");
         }
     }
 }
