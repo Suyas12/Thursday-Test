@@ -18,7 +18,7 @@ return count;
 }
 public static void main(String[] args) {
 char[] str= {'s','u','y','a','s'};
-System.out.println("Number of vowels present in array is "+countVowels(str));
+System.out.println("Vowels present in array: "+countVowels(str));
 }
 }
 
