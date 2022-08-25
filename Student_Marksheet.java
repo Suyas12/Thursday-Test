@@ -44,7 +44,7 @@ class Grad extends Student{
 	}
 }
 
-public class Marksheet{
+public class Student_Marksheet{
 	public static void main(String args[]){
 
 		Undergrad Suyas = new Undergrad();
