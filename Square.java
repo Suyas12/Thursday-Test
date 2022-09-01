@@ -32,14 +32,14 @@ abstract class Shape{
     }
     class Circle extends Shape{
         public double getarea(){
-            return 1;
+            return 0;
         }  
     }
     final class Rectangle extends Shape{
         double width;
         double length;
         public double getarea(){
-            return 1;
+            return 0;
         } 
     }
 }
