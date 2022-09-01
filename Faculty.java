@@ -16,7 +16,7 @@ public class Faculty{
 	//package com.company;
 	public class AssistantProfessor extends Faculty{
 		int DA;
-		public AssistantProfessor(String name,int basic,int AD){
+		public AssistantProfessor(String name,int basic,int DA){
 			super(name,basic);
 			this.DA=DA;
 		}
