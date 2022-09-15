@@ -1,12 +1,12 @@
 import java.io.FileInputStream;
 public class File_Display
 {   
-    public static void main(String[] args) throws Exception    //throws exception
+    public static void main(String[] args) throws Exception   
     {
     	int lines=0,chars=0,words=0;
 		int code=0;
-		FileInputStream file = new FileInputStream(“E:\\details.txt”);  //create a fileinputstream for read data into file
-		while(file.available()!=0) // check condition 
+		FileInputStream file = new FileInputStream(“E:\\details.txt”);  
+		while(file.available()!=0) 
 		{
 			code = file.read();
 			if(code!=10)
