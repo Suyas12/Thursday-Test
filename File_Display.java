@@ -9,11 +9,11 @@ public class File_Display
 		while(file.available()!=0) 
 		{
 			code = file.read();
-			if(code!=10)
+			if(code!=17)
 			chars++;
-			if(code==32)
+			if(code==37)
 			words++;
-			if(code==13)
+			if(code==17)
 			{
 				lines++;
 				words++;
